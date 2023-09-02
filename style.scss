@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+header{
+    .navbar{
+        background: transparent;
+        .sidebar{
+            right: -1000px;
+            &.active{
+                right: 0;
+             }
+        }
+    }
+}
+
+main{
+    .top{
+        background: url("../../assets/img/bg.jpg");
+        .fuel{
+            .info{
+                .about{
+                    a{
+                        transition:all 0.4s ease-in-out ;
+                    }
+                }
+                & a:hover{
+                    background: white;
+                    color: red;
+                }
+                .contact{
+                    a{
+                        transition:all 0.4s ease-in-out ;
+                    }
+                }
+                & .contact:hover{
+                    background: red;
+                    color: white;
+                }
+            }
+        }
+    }
+    .connection{
+        .services{
+            .service{
+                .under{
+                    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                }
+            }
+        }
+    }
+}

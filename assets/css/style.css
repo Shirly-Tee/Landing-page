@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+header .navbar {
+  background: transparent;
+}
+header .navbar .sidebar {
+  right: -1000px;
+}
+header .navbar .sidebar.active {
+  right: 0;
+}
+
+main .top {
+  background: url("../../assets/img/bg.jpg");
+}
+main .top .fuel .info .about a {
+  transition: all 0.4s ease-in-out;
+}
+main .top .fuel .info a:hover {
+  background: white;
+  color: red;
+}
+main .top .fuel .info .contact a {
+  transition: all 0.4s ease-in-out;
+}
+main .top .fuel .info .contact:hover {
+  background: red;
+  color: white;
+}
+main .connection .services .service .under {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}/*# sourceMappingURL=style.css.map */
