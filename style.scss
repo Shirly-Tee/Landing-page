@@ -73,4 +73,20 @@ main{
         background: rgb(85, 83, 83);
     }
     }
+    .team{
+        .members{
+            .member{
+                .under{
+                    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                }
+            }
+        }
+    }
+    .revolution{
+        .rev{
+            .right{
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            }
+        }
+    }
 }
