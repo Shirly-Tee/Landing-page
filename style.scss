@@ -89,4 +89,44 @@ main{
             }
         }
     }
+    .customers{
+        .all{
+            .customer{
+                .info{
+                    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                }
+            }
+        }
+    }
+    .blog{
+        .right{
+            background: url("../../assets/img/logis-55.jpg");
+            background-size: cover;
+        }
+    }
+}
+.footer{
+    .socials{
+        .icon{
+            .social{
+                a{
+                    transition: all 0.4s ease-in-out;
+                }
+                &:hover{
+                    background: rgb(143, 60, 60);
+                }
+            }
+
+        }
+    }
+    .Abouts{
+        .about{
+            a{
+                transition: all 0.4s ease-in-out;
+            }
+            &:hover{
+                color: rgb(143, 60, 60);
+            }
+        }
+    }
 }
