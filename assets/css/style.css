@@ -68,16 +68,28 @@ main .blog .right {
   background: url("../../assets/img/logis-55.jpg");
   background-size: cover;
 }
-
-.footer .socials .icon .social a {
+main .blog .right .fuel .about a {
   transition: all 0.4s ease-in-out;
 }
-.footer .socials .icon .social:hover {
+main .blog .right .fuel .about:hover {
+  background: rgb(50, 2, 128);
+}
+main .blog .left .left-1 .ship .about a {
+  transition: all 0.4s ease-in-out;
+}
+main .blog .left .left-1 .ship .about:hover {
+  background: rgb(50, 2, 128);
+}
+
+s .footer .socials .icon .social a {
+  transition: all 0.4s ease-in-out;
+}
+s .footer .socials .icon .social:hover {
   background: rgb(143, 60, 60);
 }
-.footer .Abouts .about a {
+s .footer .Abouts .about a {
   transition: all 0.4s ease-in-out;
 }
-.footer .Abouts .about:hover {
+s .footer .Abouts .about:hover {
   color: rgb(143, 60, 60);
 }/*# sourceMappingURL=style.css.map */

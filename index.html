@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <title> Landing Pages</title>
 </head>
-<body>
+<body class="">
   <header class="fixed top-0 right-0 left-0 z-10">
     <div class="w-full md:px-20 border-b md:py-4 hidden justify-between items-center md:flex">
       <div class=" flex flex-row gap-3">
@@ -68,7 +68,7 @@
         <h2 class="text-2xl font-bold md:text-4xl text-slate-950">Our Best Services</h2>
       </div>
       <div class="services flex flex-col gap-y-8 md:flex-row md:gap-x-6">
-        <div class="service relative">
+        <div class="service relative md:hidden lg:flex lg:flex-col">
           <div class="image">
             <img src="assets/img/service1.jpg" alt="">
           </div>
@@ -253,7 +253,7 @@
     </section>
     <section class="revolution  w-full py-10">
       <div class=" rev flex flex-col md:flex-col  lg:flex-row gap-y-8 ">
-        <div class="left flex md:w-1/2">
+        <div class="left flex md:px-10 lg:w-1/2">
           <img src="assets/img/team-portrait-5.jpg" alt="">
         </div>
         <div class="right flex flex-col px-6 py-10 md:pr-20 md:pt-16 md:pl-16">
@@ -378,29 +378,42 @@
         </div>
       </div>
     </section>
-    <section class="blog flex flex-col w-full py-24 md:px-16">
+    <section class="blog flex flex-col w-full px-4 md:py-24 md:px-6  lg:px-20 bg-slate-100">
       <div class="flex flex-col items-center py-10 px-4">
         <h5 class="text-red-600 text-md font-bold md:text-xl tracking-wide">This is Out Inspiration</h5>
         <h2 class="text-3xl font-bold md:text-4xl text-slate-950">Our Blog</h2>
       </div>
-      <div class="blog-all flex flex-col md:flex-row">
-        <div class="right">
-          <div class="fuel flex flex-col items-center py-14 md:px-16 md:py-16">
-            <h1 class="text-center text-4xl md:text-5xl text-white font-bold	">Fueling Your</h1>
-            <span class="text-center text-4xl text-white md:text-5xl font-bold	">Logistics Chain </span>
-            <p class="text-center text-lg my-5 text-white	">Globally connected. Locally invested</p>
-            <a href="#" class="about bg-red-500 text-white py-1 md:py-2 px-6 text-xs md:text-md">ABOUT US </a>
+      <div class="blog-all flex flex-col  md:p-10 xl:flex-row">
+        <div class="right w-full p-10 mb-12 xl:w-1/2">
+          <div class="fuel flex flex-col items-center pt-48 ">
+            <h1 class="text-center text-2xl md:text-3xl font-bold text-white	">Passenger Airlines Start Shifting</h1>
+            <p class="text-center text-md my-5 text-white">
+              For the best conclusions of this meeting has been the reactivation of the Port Logistics Committee.
+            </p>
+            <a href="#" class="about bg-red-500 text-white py-2 md:py-2 px-6 text-lg md:text-md">Read More </a>
           </div>
         </div>
-        <div class="left flex flex-col md:w-1/2">
-          <div class="left-1 flex flex-col md:flex-row">
-            <div class="image flex ">
+        <div class="left flex flex-col md:flex-row  lg:w-full lg:ml-4 lg:pr-10 mb-12 xl:w-1/2">
+          <div class="left-1 flex flex-col  ">
+            <div class="image flex mb-6 md:mr-4">
               <img src="assets/img/logis-54.jpg" alt="">
             </div>
             <div class="ship flex flex-col">
-              <p class="text-red-600">May 12,2021</p>
-              <h1 class="text-slate-950">Shipping Survival Mode Crushing</h1>
-              <p>Once both entities have arrived, the development and integration.</p>
+              <p class="text-red-600 mb-6">May 12,2021</p>
+              <h1 class=" font-bold mb-2 text-slate-950">Shipping Survival Mode Crushing</h1>
+              <p class="text-slate-950 mb-5">Once both entities have arrived, the development and integration.</p>
+              <a href="#" class="about bg-red-500 text-white py-2 md:py-2 px-6 text-lg md:text-md w-fit">Read More </a>
+            </div>
+          </div>
+          <div class="left-1 flex flex-col">
+            <div class="image flex mb-6 lg:mt-0 md:mr-4">
+              <img src="assets/img/logis-54.jpg" alt="">
+            </div>
+            <div class="ship flex flex-col mt-6 md:mt-0 lg:0">
+              <p class="text-red-600 mb-6">May 12,2021</p>
+              <h1 class="font-bold mb-2 text-slate-950">Shipping Survival Mode Crushing</h1>
+              <p class="text slate-950 mb-5">Once both entities have arrived, the development and integration.</p>
+              <a href="#" class="about bg-red-500 text-white py-2 md:py-2 px-6 text-lg md:text-md w-fit">Read More </a>
             </div>
           </div>
         </div>
@@ -408,7 +421,7 @@
     </section>
   </main>
   <footer>
-    <section class="footer flex flex-col md:flex-row w-full py-12 px-8 bg-slate-950 md:gap-x-12 md:px-20 md:justify-center">
+    <section class="footer flex flex-col md:grid md:grid-cols-2 lg:flex lg:flex-row w-full py-12 px-8 bg-slate-950 md:gap-x-12 md:px-20 md:justify-center">
       <div class="socials mb-12 md:w-80 md:pl-20">
         <div class="flex w-40">
           <img src="assets/img/logo.png" alt="">
